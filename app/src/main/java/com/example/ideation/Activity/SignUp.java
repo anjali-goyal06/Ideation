@@ -1,4 +1,4 @@
-package com.example.ideation;
+package com.example.ideation.Activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -41,7 +41,7 @@ public class SignUp extends AppCompatActivity {
         binding.signUpText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SignUp.this,Sign_In.class));
+                startActivity(new Intent(SignUp.this, Sign_In.class));
             }
         });
 
