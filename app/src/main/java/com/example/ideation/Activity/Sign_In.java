@@ -43,7 +43,7 @@ public class Sign_In extends AppCompatActivity {
                 startActivity(new Intent(Sign_In.this, SignUp.class));
             }
         });
-
+//  Sign In page
         binding.signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

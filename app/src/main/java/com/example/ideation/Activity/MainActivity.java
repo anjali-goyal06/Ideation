@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,SignUp.class));
             }
         });
-
+//
         Button profile = findViewById(R.id.My_Profile);
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
