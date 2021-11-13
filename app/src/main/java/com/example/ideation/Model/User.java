@@ -15,7 +15,6 @@ public class User {
     ArrayList<Projects> projects;
     ArrayList<Contact> contacts;
 
-
     public User(){};
 
     public User(String name,String emailId,String password){
@@ -80,6 +79,5 @@ public class User {
     public void setUserId(String userId) {
         this.userId = userId;
     }
-
 
 }
